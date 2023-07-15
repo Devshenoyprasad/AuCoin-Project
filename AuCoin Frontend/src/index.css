@@ -1,0 +1,191 @@
+html {
+  scroll-behavior: smooth;
+}
+body{
+  background-color:#ffffff;
+  margin:0;
+}
+.App{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.Navigation{
+  display: flex;
+  width:100%;
+  flex-direction: row;
+  justify-content:space-between;
+  font-family: Titillium Web;
+  align-items: center;
+  backdrop-filter: blur(4px);
+  height:90px;
+}
+
+.Navigation img{
+  height:70px;
+  margin:10px 10px 10px 10px
+}
+
+.Operations{
+  width:50%;
+  display:flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+.Operations button{
+  background-color: #ffffff;
+  border: none;
+  font-family: Titillium Web;
+  font-size: 20px;
+  cursor: pointer;
+  text-decoration: underline;
+  text-decoration-color: white;
+}
+.Operations button a:hover{
+  text-decoration-color: navajowhite
+}
+.Operations button a{
+  background-color: #ffffff;
+  color:black;
+  border: none;
+  font-family: Titillium Web;
+  font-size: 20px;
+  cursor: pointer;
+  text-decoration: underline;
+  text-decoration-color: white;
+}
+.walletConnect{
+  font-family: Titillium Web;
+  height:50px;
+  min-width: 20%;
+  font-size: 20px;
+  font-weight: normal;
+  /* background-color:navajowhite; */
+  background-color:orange;
+  margin:10px 10px 10px 10px;
+  cursor: pointer;
+  border-style: solid;
+  border-width: 3px;
+}
+ .walletConnect:hover{
+  border-width: 5px;
+  height:55px;
+}
+.intro{
+  font-family: Atkinson Hyperlegible;
+  font-size: 45px;
+  text-align: center;
+  margin:70px 40px 100px 40px;
+  line-height: 70px;
+}
+.Home{
+  margin:20px 50px 20px 50px;
+}
+
+.About{
+  font-family: Atkinson Hyperlegible;
+  text-align: left;
+  font-size:20px;
+}
+.Home span{
+  font-family: Atkinson Hyperlegible;
+  font-size: 40px;
+}
+.Home a{
+  color:orange;
+  cursor:pointer;
+}
+.HowtoUse{
+  font-family: Atkinson Hyperlegible;
+  font-size:20px
+}
+.Footer{
+  background-color:orange;
+  width:100%;
+  display:flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.Footer .socials{
+  display:flex;
+  flex-direction: row;
+}
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  color:black;
+  text-align: center;
+  text-decoration: none;
+}
+.Mail{
+  color: black;
+  text-align: right;
+  text-decoration: none;
+  font-weight:bolder;
+  font-size: 20px;
+}
+ul{
+  font-family: Atkinson Hyperlegible;
+  font-size:20px;
+  display:inline-block;
+  width:fit-content;
+
+}
+.Interface{
+  display:flex;
+  flex-direction: column;
+  width:40%;
+  border-style:solid;
+  border-color: black;
+  border-radius: 50px;
+  margin:30px 30px 30px 30px;
+  text-align:left
+}
+
+.accountinfo{
+  display:flex;
+  flex-direction:row;
+  margin:30px 50px 0px 50px;
+}
+.accountinfo div{
+  width:50%;
+}
+.accountinfo p{
+  font-family: Atkinson Hyperlegible;
+  font-size:20px;
+}
+form button{
+  font-family: Titillium Web;
+  height:50px;
+  min-width: 20%;
+  font-size: 20px;
+  font-weight: normal;
+  /* background-color:navajowhite; */
+  background-color:orange;
+  margin:0px 10px 10px 10px;
+  cursor: pointer;
+  border-style: solid;
+  border-width: 3px;
+}
+form button:hover{
+  border-width: 5px;
+  height:55px;
+}
+form input{
+  display:block;
+  width:95%;
+  height:35px;
+  border-style: solid;
+  border-color:black;
+  border-width: 3px;
+  margin-bottom: 10px;
+}
+ form{
+  font-family: Atkinson Hyperlegible;
+  padding:0px 50px 30px 50px;
+ }
+ form p{
+  margin:0 0 10px 0
+ }
+

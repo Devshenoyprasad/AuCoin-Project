@@ -1,0 +1,10 @@
+{
+  "11155111": {
+    "AuCEngine": {
+      "address": "0xfa75d372e642e41290ef57eb9ac90a35e6594bc4"
+    },
+    "weth": {
+      "address": "0x7b79995e5f793A07Bc00c21412e50Ecae098E7f9"
+    }
+  }
+}
